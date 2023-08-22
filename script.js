@@ -1,5 +1,10 @@
 const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 const resultMessage = document.getElementById('result-message');
+const userScoreElement = document.getElementById('user-score');
+const computerScoreElement = document.getElementById('computer-score');
+
+let userScore = 0;
+let computerScore = 0;
 
 document.querySelectorAll('.choice').forEach(button => {
     button.addEventListener('click', function () {
@@ -15,8 +20,12 @@ document.querySelectorAll('.choice').forEach(button => {
             roundResult = "It's a tie!";
         } else if (diff % 2 === 1) {
             roundResult = 'You win!';
+            userScore++;
+            userScoreElement.textContent = userScore;
         } else {
             roundResult = 'Computer wins!';
+            computerScore++;
+            computerScoreElement.textContent = computerScore;
         }
 
         resultMessage.textContent = `You chose ${userChoice}, computer chose ${computerChoice}. ${roundResult}`;
