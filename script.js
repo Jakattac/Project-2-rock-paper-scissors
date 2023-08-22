@@ -1,29 +1,24 @@
-const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-const userScoreElem = document.getElementById("user-score");
-const computerScoreElem = document.getElementById("computer-score");
-const resultElem = document.getElementById("result");
+const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+const resultMessage = document.getElementById('result-message');
 
-let userScore = 0;
-let computerScore = 0;
-
-document.querySelectorAll(".choice").forEach(choice => {
-    choice.addEventListener("click", function () {
-        const userChoice = this.id;
+document.querySelectorAll('.choice').forEach(button => {
+    button.addEventListener('click', function () {
+        const userChoice = this.dataset.choice;
         const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-        const result = getResult(userChoice, computerChoice);
-        updateScore(result);
-        showResult(result, userChoice, computerChoice);
+
+        const userIndex = choices.indexOf(userChoice);
+        const computerIndex = choices.indexOf(computerChoice);
+        const diff = (userIndex - computerIndex + choices.length) % choices.length;
+
+        let roundResult = '';
+        if (diff === 0) {
+            roundResult = "It's a tie!";
+        } else if (diff % 2 === 1) {
+            roundResult = 'You win!';
+        } else {
+            roundResult = 'Computer wins!';
+        }
+
+        resultMessage.textContent = `You chose ${userChoice}, computer chose ${computerChoice}. ${roundResult}`;
     });
 });
-
-function getResult(user, computer) {
-    // Your game logic here
-}
-
-function updateScore(result) {
-    // Your score update logic here
-}
-
-function showResult(result, userChoice, computerChoice) {
-    // Your result display logic here
-}
