@@ -1,3 +1,4 @@
+/* Style Rules */
 body {
     background-image: url("images/Game-logo.png");
     background-repeat: no-repeat;
@@ -18,6 +19,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -27,11 +29,23 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 32px;
     margin-bottom: 20px;
+}
+
+ol, ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px; 
 }
 
 .scores {
@@ -63,4 +77,5 @@ h1 {
 
 .result {
     font-size: 18px;
+    margin-bottom: 20px; 
 }
