@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,22 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Rock Paper Scissors Lizard Spock</h1>
-        <div class="choices">
-            <button class="choice" data-choice="rock">Rock</button>
-            <button class="choice" data-choice="paper">Paper</button>
-            <button class="choice" data-choice="scissors">Scissors</button>
-            <button class="choice" data-choice="lizard">Lizard</button>
-            <button class="choice" data-choice="spock">Spock</button>
+        <div class="game-box">
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+            <div class="scores">
+                <p>User Score: <span id="user-score">0</span></p>
+                <p>Computer Score: <span id="computer-score">0</span></p>
+            </div>
+            <div class="choices">
+                <button class="choice" data-choice="rock">Rock</button>
+                <button class="choice" data-choice="paper">Paper</button>
+                <button class="choice" data-choice="scissors">Scissors</button>
+                <button class="choice" data-choice="lizard">Lizard</button>
+                <button class="choice" data-choice="spock">Spock</button>
+            </div>
+            <div class="result">
+                <p id="result-message">Choose your weapon!</p>
+            </div>
         </div>
-        <div class="result">
-            <p id="result-message">Choose your weapon!</p>
-        </div>
-        <div class="scores">
-            <p>User Score: <span id="user-score">0</span></p>
-            <p>Computer Score: <span id="computer-score">0</span></p>
-        </div>
-        
     </div>
     <script src="script.js"></script>
 </body>
