@@ -36,6 +36,15 @@ document.querySelectorAll('.choice').forEach(button => {
             if (userScore === 5 || computerScore === 5) {
                 resultMessage.textContent = userScore === 5 ? 'You win the game!' : 'You Lose!';
             }
+            
+            const resetButton = document.getElementById('reset-button');
+            resetButton.addEventListener('click', function () {
+            userScore = 0;
+            computerScore = 0;
+            userScoreElement.textContent = userScore;
+            computerScoreElement.textContent = computerScore;
+            resultMessage.textContent = 'Choose your weapon!';
+});
         }
     });
 });

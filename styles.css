@@ -61,7 +61,7 @@ p {
 }
 
 .choice {
-    background-color: #ff0000;
+    background-color: #9a0101;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -80,6 +80,17 @@ p {
     margin-bottom: 20px; 
 }
 
+.reset-button {
+    background-color: #0192c0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
 /* Media Rules */
 
 @media (max-width: 767px) {
@@ -90,3 +101,4 @@ p {
     .game-box {
         margin-bottom: 10px; 
     }
+}
