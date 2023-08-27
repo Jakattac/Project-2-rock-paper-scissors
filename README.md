@@ -25,6 +25,7 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 - Rules displayed on the page for reference.
 - Responsive design to ensure gameplay on various devices.
 - Reset button to start a new game.
+- Social media links for contact.
 
 ## Technologies Used
 
@@ -64,6 +65,7 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 - The template for the website was taken from "Code-Institute-Org/ci-full-template"
 - The instructions on how to properly title my sections and organise my code was taken from Chatgpt
 - The credit of the creation of the game comes from The Big Bang Theory TV show
+- Guidance for javascript code was taken from the code institute course and ChatGPT
 
 ## Media Credits
 
