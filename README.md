@@ -18,6 +18,7 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 
 ## Features
 
+![Home Screen](/workspaces/Project-2-rock-paper-scissors/images/index-screen.png)
 - Interactive gameplay with user-friendly buttons.
 - Real-time tracking of user and computer scores.
 - Rules displayed on the page for reference.
@@ -43,3 +44,5 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 - Watch the game message to see the result of each round.
 - Keep playing until one player reaches a score of 5 to win the game.
 - Use the reset button to start a new game.
+
+## 
