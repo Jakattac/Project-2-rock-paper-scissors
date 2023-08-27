@@ -18,9 +18,11 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 
 ## Features
 
-![Home Screen](/workspaces/Project-2-rock-paper-scissors/images/index-screen.png)
+![Home Screen](/../images/index-screen.png)
 - Interactive gameplay with user-friendly buttons.
+![Button selection](/../images/selection.png)
 - Real-time tracking of user and computer scores.
+![Finish](/../images/finish.png)
 - Rules displayed on the page for reference.
 - Responsive design to ensure gameplay on various devices.
 - Reset button to start a new game.
