@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock Game
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](/../main/images/index-screen.png)
 
 A fun and interactive game inspired by the classic Rock Paper Scissors, with the addition of Lizard and Spock as new choices.
 
@@ -18,11 +18,10 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 
 ## Features
 
-![Home Screen](/../images/index-screen.png)
 - Interactive gameplay with user-friendly buttons.
-![Button selection](/../images/selection.png)
+![Button selection](/../main/images/selection.png)
 - Real-time tracking of user and computer scores.
-![Finish](/../images/finish.png)
+![Finish](/../main/images/finish.png)
 - Rules displayed on the page for reference.
 - Responsive design to ensure gameplay on various devices.
 - Reset button to start a new game.
@@ -47,4 +46,26 @@ Rock Paper Scissors Lizard Spock is a modern twist on the traditional Rock Paper
 - Keep playing until one player reaches a score of 5 to win the game.
 - Use the reset button to start a new game.
 
-## 
+## Testing
+
+- I have tested the site through several different browsers and screen sizes to gurrantee ease of use and good UX design.
+
+## Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official W3C validator
+- css
+    - No errors were returned when passing through the official (Jigsaw) validator
+- Javascript
+    - No errors were returned when passing through the official JSHint validator
+
+## Credits
+
+- The template for the website was taken from "Code-Institute-Org/ci-full-template"
+- The instructions on how to properly title my sections and organise my code was taken from Chatgpt
+- The credit of the creation of the game comes from The Big Bang Theory TV show
+
+## Media Credits
+
+- The background image was taken from https://www.akshaybahadur.com/post/rock-paper-scissors-lizard-spock
+- The images used on my buttons was taken from font awesome
