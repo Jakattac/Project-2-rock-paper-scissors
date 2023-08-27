@@ -34,18 +34,24 @@ body {
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
     margin-bottom: 20px;
+    color: hsl(276, 100%, 87%);
 }
 
-ol, ul {
+ol {
     list-style: none;
     padding-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(276, 100%, 87%);
 }
 
 p {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(276, 100%, 87%);
 }
 
 .scores {
